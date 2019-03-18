@@ -585,8 +585,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__inprogress
-#define __PYX_HAVE_API__inprogress
+#define __PYX_HAVE__biphelper
+#define __PYX_HAVE_API__biphelper
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -796,7 +796,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "inprogress.py",
+  "biphelper.py",
 };
 
 /*--- Type declarations ---*/
@@ -1277,12 +1277,12 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'inprogress' */
-#define __Pyx_MODULE_NAME "inprogress"
-extern int __pyx_module_is_main_inprogress;
-int __pyx_module_is_main_inprogress = 0;
+/* Module declarations from 'biphelper' */
+#define __Pyx_MODULE_NAME "biphelper"
+extern int __pyx_module_is_main_biphelper;
+int __pyx_module_is_main_biphelper = 0;
 
-/* Implementation of 'inprogress' */
+/* Implementation of 'biphelper' */
 static PyObject *__pyx_builtin_open;
 static const char __pyx_k_2[] = "2";
 static const char __pyx_k_3[] = "3";
@@ -1300,7 +1300,7 @@ static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_err[] = "err";
 static const char __pyx_k_msg[] = "msg";
-static const char __pyx_k_s_s[] = " %s %s";
+static const char __pyx_k_s_s[] = "%s %s";
 static const char __pyx_k_sys[] = "sys";
 static const char __pyx_k_TRUE[] = "TRUE";
 static const char __pyx_k_args[] = "args";
@@ -1319,7 +1319,7 @@ static const char __pyx_k_Usage[] = "Usage";
 static const char __pyx_k_error[] = "error";
 static const char __pyx_k_lines[] = "lines";
 static const char __pyx_k_print[] = "print";
-static const char __pyx_k_s_s_s[] = " %s %s %s";
+static const char __pyx_k_s_s_s[] = "%s %s %s";
 static const char __pyx_k_split[] = "split";
 static const char __pyx_k_value[] = "value";
 static const char __pyx_k_word1[] = "word1";
@@ -1355,20 +1355,20 @@ static const char __pyx_k_number_3[] = "--number";
 static const char __pyx_k_qualname[] = "__qualname__";
 static const char __pyx_k_wordlist[] = "wordlist=";
 static const char __pyx_k_CODEWORDS[] = "CODEWORDS";
+static const char __pyx_k_biphelper[] = "biphelper";
 static const char __pyx_k_hn_l_i_vw[] = "hn:l:i:vw:";
 static const char __pyx_k_metaclass[] = "__metaclass__";
 static const char __pyx_k_readlines[] = "readlines";
-static const char __pyx_k_inprogress[] = "inprogress";
 static const char __pyx_k_wordlist_2[] = "--wordlist";
 static const char __pyx_k_Importing_s[] = "Importing: %s";
-static const char __pyx_k_s_s_s_s_s_s[] = " %s %s %s %s %s %s";
+static const char __pyx_k_s_s_s_s_s_s[] = "%s %s %s %s %s %s";
 static const char __pyx_k_Usage___init[] = "Usage.__init__";
+static const char __pyx_k_biphelper_py[] = "biphelper.py";
 static const char __pyx_k_help_message[] = "help_message";
 static const char __pyx_k_wordlist_txt[] = "wordlist.txt";
-static const char __pyx_k_inprogress_py[] = "inprogress.py";
 static const char __pyx_k_for_help_use_help[] = "\t for help use --help";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_s_s_s_s_s_s_s_s_s_s_s_s[] = " %s %s %s %s %s %s %s %s %s %s %s %s";
+static const char __pyx_k_s_s_s_s_s_s_s_s_s_s_s_s[] = "%s %s %s %s %s %s %s %s %s %s %s %s";
 static const char __pyx_k_BIP39_Phrase_Generator_v1_02_n[] = "\nBIP39 Phrase Generator v1.02\n-n <x> or --number <x>: Number of sample code phrases given. (Default is 5)\n-w <file> or --wordlist <file>: Uses another wordlist to generate code phrases from.\n";
 static const char __pyx_k_code_phrase_geneator_py_Bip39_b[] = "\ncode_phrase_geneator.py\n\n\nBip39 by TheRealLordFractal 2019\n\n";
 static PyObject *__pyx_kp_s_12;
@@ -1385,6 +1385,8 @@ static PyObject *__pyx_kp_s__2;
 static PyObject *__pyx_kp_s__3;
 static PyObject *__pyx_n_s_args;
 static PyObject *__pyx_n_s_argv;
+static PyObject *__pyx_n_s_biphelper;
+static PyObject *__pyx_kp_s_biphelper_py;
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_doc;
 static PyObject *__pyx_n_s_end;
@@ -1402,8 +1404,6 @@ static PyObject *__pyx_n_s_help_message;
 static PyObject *__pyx_kp_s_hn_l_i_vw;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_init;
-static PyObject *__pyx_n_s_inprogress;
-static PyObject *__pyx_kp_s_inprogress_py;
 static PyObject *__pyx_kp_s_l;
 static PyObject *__pyx_n_s_lines;
 static PyObject *__pyx_kp_s_lines_2;
@@ -1457,9 +1457,9 @@ static PyObject *__pyx_n_s_word9;
 static PyObject *__pyx_kp_s_wordlist;
 static PyObject *__pyx_kp_s_wordlist_2;
 static PyObject *__pyx_kp_s_wordlist_txt;
-static PyObject *__pyx_pf_10inprogress_5Usage___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_msg); /* proto */
-static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_lines, PyObject *__pyx_v_number); /* proto */
-static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_argv); /* proto */
+static PyObject *__pyx_pf_9biphelper_5Usage___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_msg); /* proto */
+static PyObject *__pyx_pf_9biphelper_generate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_lines, PyObject *__pyx_v_number); /* proto */
+static PyObject *__pyx_pf_9biphelper_2main(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_argv); /* proto */
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
@@ -1476,7 +1476,7 @@ static PyObject *__pyx_codeobj__8;
 static PyObject *__pyx_codeobj__11;
 /* Late includes */
 
-/* "inprogress.py":26
+/* "biphelper.py":26
  * 
  * class Usage(Exception):
  *     def __init__(self, msg):             # <<<<<<<<<<<<<<
@@ -1485,9 +1485,9 @@ static PyObject *__pyx_codeobj__11;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10inprogress_5Usage_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10inprogress_5Usage_1__init__ = {"__init__", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_10inprogress_5Usage_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10inprogress_5Usage_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9biphelper_5Usage_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9biphelper_5Usage_1__init__ = {"__init__", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9biphelper_5Usage_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9biphelper_5Usage_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_msg = 0;
   PyObject *__pyx_r = 0;
@@ -1535,23 +1535,23 @@ static PyObject *__pyx_pw_10inprogress_5Usage_1__init__(PyObject *__pyx_self, Py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 26, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("inprogress.Usage.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("biphelper.Usage.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10inprogress_5Usage___init__(__pyx_self, __pyx_v_self, __pyx_v_msg);
+  __pyx_r = __pyx_pf_9biphelper_5Usage___init__(__pyx_self, __pyx_v_self, __pyx_v_msg);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10inprogress_5Usage___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_msg) {
+static PyObject *__pyx_pf_9biphelper_5Usage___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_msg) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "inprogress.py":27
+  /* "biphelper.py":27
  * class Usage(Exception):
  *     def __init__(self, msg):
  *         self.msg = msg             # <<<<<<<<<<<<<<
@@ -1560,7 +1560,7 @@ static PyObject *__pyx_pf_10inprogress_5Usage___init__(CYTHON_UNUSED PyObject *_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_msg, __pyx_v_msg) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
 
-  /* "inprogress.py":26
+  /* "biphelper.py":26
  * 
  * class Usage(Exception):
  *     def __init__(self, msg):             # <<<<<<<<<<<<<<
@@ -1572,7 +1572,7 @@ static PyObject *__pyx_pf_10inprogress_5Usage___init__(CYTHON_UNUSED PyObject *_
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("inprogress.Usage.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("biphelper.Usage.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1580,7 +1580,7 @@ static PyObject *__pyx_pf_10inprogress_5Usage___init__(CYTHON_UNUSED PyObject *_
   return __pyx_r;
 }
 
-/* "inprogress.py":29
+/* "biphelper.py":29
  *         self.msg = msg
  * 
  * def generate(lines=True, number=5):             # <<<<<<<<<<<<<<
@@ -1589,9 +1589,9 @@ static PyObject *__pyx_pf_10inprogress_5Usage___init__(CYTHON_UNUSED PyObject *_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10inprogress_1generate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10inprogress_1generate = {"generate", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_10inprogress_1generate, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10inprogress_1generate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9biphelper_1generate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9biphelper_1generate = {"generate", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9biphelper_1generate, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9biphelper_1generate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_lines = 0;
   PyObject *__pyx_v_number = 0;
   PyObject *__pyx_r = 0;
@@ -1647,18 +1647,18 @@ static PyObject *__pyx_pw_10inprogress_1generate(PyObject *__pyx_self, PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("generate", 0, 0, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 29, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("inprogress.generate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("biphelper.generate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10inprogress_generate(__pyx_self, __pyx_v_lines, __pyx_v_number);
+  __pyx_r = __pyx_pf_9biphelper_generate(__pyx_self, __pyx_v_lines, __pyx_v_number);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_lines, PyObject *__pyx_v_number) {
+static PyObject *__pyx_pf_9biphelper_generate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_lines, PyObject *__pyx_v_number) {
   PyObject *__pyx_v_word1 = NULL;
   PyObject *__pyx_v_word2 = NULL;
   PyObject *__pyx_v_word3 = NULL;
@@ -1693,7 +1693,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
   __Pyx_RefNannySetupContext("generate", 0);
   __Pyx_INCREF(__pyx_v_number);
 
-  /* "inprogress.py":30
+  /* "biphelper.py":30
  * 
  * def generate(lines=True, number=5):
  *     while number > 0:             # <<<<<<<<<<<<<<
@@ -1706,7 +1706,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (!__pyx_t_2) break;
 
-    /* "inprogress.py":31
+    /* "biphelper.py":31
  * def generate(lines=True, number=5):
  *     while number > 0:
  *         if lines == '2':             # <<<<<<<<<<<<<<
@@ -1716,12 +1716,12 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_lines, __pyx_kp_s_2, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 31, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "inprogress.py":33
+      /* "biphelper.py":33
  *         if lines == '2':
  *             #word1 = PREFIXES[int(random.uniform(0,len(PREFIXES)))]
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s" % (word1.rstrip(), word2.rstrip())
+ *             print "%s %s" % (word1.rstrip(), word2.rstrip())
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -1793,11 +1793,11 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word1, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "inprogress.py":34
+      /* "biphelper.py":34
  *             #word1 = PREFIXES[int(random.uniform(0,len(PREFIXES)))]
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
- *             print " %s %s" % (word1.rstrip(), word2.rstrip())
+ *             print "%s %s" % (word1.rstrip(), word2.rstrip())
  *         elif lines == '3':
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 34, __pyx_L1_error)
@@ -1870,10 +1870,10 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word2, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "inprogress.py":35
+      /* "biphelper.py":35
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s" % (word1.rstrip(), word2.rstrip())             # <<<<<<<<<<<<<<
+ *             print "%s %s" % (word1.rstrip(), word2.rstrip())             # <<<<<<<<<<<<<<
  *         elif lines == '3':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  */
@@ -1925,7 +1925,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       if (__Pyx_PrintOne(0, __pyx_t_9) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* "inprogress.py":31
+      /* "biphelper.py":31
  * def generate(lines=True, number=5):
  *     while number > 0:
  *         if lines == '2':             # <<<<<<<<<<<<<<
@@ -1935,9 +1935,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       goto __pyx_L5;
     }
 
-    /* "inprogress.py":36
+    /* "biphelper.py":36
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s" % (word1.rstrip(), word2.rstrip())
+ *             print "%s %s" % (word1.rstrip(), word2.rstrip())
  *         elif lines == '3':             # <<<<<<<<<<<<<<
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -1945,8 +1945,8 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_lines, __pyx_kp_s_3, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 36, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "inprogress.py":37
- *             print " %s %s" % (word1.rstrip(), word2.rstrip())
+      /* "biphelper.py":37
+ *             print "%s %s" % (word1.rstrip(), word2.rstrip())
  *         elif lines == '3':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2022,12 +2022,12 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word1, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "inprogress.py":38
+      /* "biphelper.py":38
  *         elif lines == '3':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
+ *             print "%s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 38, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2099,11 +2099,11 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word2, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "inprogress.py":39
+      /* "biphelper.py":39
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
- *             print " %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
+ *             print "%s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
  *         elif lines == '6':
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 39, __pyx_L1_error)
@@ -2176,10 +2176,10 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word3, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "inprogress.py":40
+      /* "biphelper.py":40
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())             # <<<<<<<<<<<<<<
+ *             print "%s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())             # <<<<<<<<<<<<<<
  *         elif lines == '6':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  */
@@ -2251,9 +2251,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       if (__Pyx_PrintOne(0, __pyx_t_7) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "inprogress.py":36
+      /* "biphelper.py":36
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s" % (word1.rstrip(), word2.rstrip())
+ *             print "%s %s" % (word1.rstrip(), word2.rstrip())
  *         elif lines == '3':             # <<<<<<<<<<<<<<
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2261,9 +2261,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       goto __pyx_L5;
     }
 
-    /* "inprogress.py":41
+    /* "biphelper.py":41
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
+ *             print "%s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
  *         elif lines == '6':             # <<<<<<<<<<<<<<
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2271,8 +2271,8 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_lines, __pyx_kp_s_6, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 41, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "inprogress.py":42
- *             print " %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
+      /* "biphelper.py":42
+ *             print "%s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
  *         elif lines == '6':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2348,7 +2348,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word1, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "inprogress.py":43
+      /* "biphelper.py":43
  *         elif lines == '6':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -2425,7 +2425,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word2, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "inprogress.py":44
+      /* "biphelper.py":44
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -2502,7 +2502,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word3, __pyx_t_9);
       __pyx_t_9 = 0;
 
-      /* "inprogress.py":45
+      /* "biphelper.py":45
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word4 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -2579,12 +2579,12 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word4, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "inprogress.py":46
+      /* "biphelper.py":46
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word4 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word5 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
+ *             print "%s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2656,11 +2656,11 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word5, __pyx_t_1);
       __pyx_t_1 = 0;
 
-      /* "inprogress.py":47
+      /* "biphelper.py":47
  *             word4 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word5 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
- *             print " %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
+ *             print "%s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
  *         elif lines == '12':
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 47, __pyx_L1_error)
@@ -2733,10 +2733,10 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word6, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "inprogress.py":48
+      /* "biphelper.py":48
  *             word5 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())             # <<<<<<<<<<<<<<
+ *             print "%s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())             # <<<<<<<<<<<<<<
  *         elif lines == '12':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  */
@@ -2868,9 +2868,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       if (__Pyx_PrintOne(0, __pyx_t_9) < 0) __PYX_ERR(0, 48, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* "inprogress.py":41
+      /* "biphelper.py":41
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
+ *             print "%s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip())
  *         elif lines == '6':             # <<<<<<<<<<<<<<
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2878,9 +2878,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       goto __pyx_L5;
     }
 
-    /* "inprogress.py":49
+    /* "biphelper.py":49
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
+ *             print "%s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
  *         elif lines == '12':             # <<<<<<<<<<<<<<
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2888,8 +2888,8 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_lines, __pyx_kp_s_12, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 49, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "inprogress.py":50
- *             print " %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
+      /* "biphelper.py":50
+ *             print "%s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
  *         elif lines == '12':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -2965,7 +2965,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word1, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "inprogress.py":51
+      /* "biphelper.py":51
  *         elif lines == '12':
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3042,7 +3042,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word2, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "inprogress.py":52
+      /* "biphelper.py":52
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3119,7 +3119,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word3, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "inprogress.py":53
+      /* "biphelper.py":53
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word4 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3196,7 +3196,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word4, __pyx_t_1);
       __pyx_t_1 = 0;
 
-      /* "inprogress.py":54
+      /* "biphelper.py":54
  *             word3 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word4 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word5 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3273,7 +3273,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word5, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "inprogress.py":55
+      /* "biphelper.py":55
  *             word4 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word5 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3350,7 +3350,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word6, __pyx_t_9);
       __pyx_t_9 = 0;
 
-      /* "inprogress.py":56
+      /* "biphelper.py":56
  *             word5 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word7 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3427,7 +3427,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word7, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "inprogress.py":57
+      /* "biphelper.py":57
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word7 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word8 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3504,7 +3504,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word8, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "inprogress.py":58
+      /* "biphelper.py":58
  *             word7 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word8 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word9 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3581,7 +3581,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word9, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "inprogress.py":59
+      /* "biphelper.py":59
  *             word8 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word9 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word10 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
@@ -3658,12 +3658,12 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word10, __pyx_t_1);
       __pyx_t_1 = 0;
 
-      /* "inprogress.py":60
+      /* "biphelper.py":60
  *             word9 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word10 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word11 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
  *             word12 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s %s %s %s %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip())
+ *             print "%s %s %s %s %s %s %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip())
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -3735,11 +3735,11 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word11, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "inprogress.py":61
+      /* "biphelper.py":61
  *             word10 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word11 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word12 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]             # <<<<<<<<<<<<<<
- *             print " %s %s %s %s %s %s %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip())
+ *             print "%s %s %s %s %s %s %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip())
  *         else:
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_CODEWORDS); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 61, __pyx_L1_error)
@@ -3812,10 +3812,10 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       __Pyx_XDECREF_SET(__pyx_v_word12, __pyx_t_9);
       __pyx_t_9 = 0;
 
-      /* "inprogress.py":62
+      /* "biphelper.py":62
  *             word11 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word12 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s %s %s %s %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip())             # <<<<<<<<<<<<<<
+ *             print "%s %s %s %s %s %s %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip())             # <<<<<<<<<<<<<<
  *         else:
  * 
  */
@@ -4067,9 +4067,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       if (__Pyx_PrintOne(0, __pyx_t_15) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "inprogress.py":49
+      /* "biphelper.py":49
  *             word6 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
- *             print " %s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
+ *             print "%s %s %s %s %s %s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip())
  *         elif lines == '12':             # <<<<<<<<<<<<<<
  *             word1 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
  *             word2 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
@@ -4077,7 +4077,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
       goto __pyx_L5;
     }
 
-    /* "inprogress.py":65
+    /* "biphelper.py":65
  *         else:
  * 
  *            number -= 1             # <<<<<<<<<<<<<<
@@ -4093,7 +4093,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_L5:;
   }
 
-  /* "inprogress.py":29
+  /* "biphelper.py":29
  *         self.msg = msg
  * 
  * def generate(lines=True, number=5):             # <<<<<<<<<<<<<<
@@ -4119,7 +4119,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
   __Pyx_XDECREF(__pyx_t_15);
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
-  __Pyx_AddTraceback("inprogress.generate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("biphelper.generate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_word1);
@@ -4140,7 +4140,7 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
   return __pyx_r;
 }
 
-/* "inprogress.py":67
+/* "biphelper.py":67
  *            number -= 1
  * 
  * def main(argv=None):             # <<<<<<<<<<<<<<
@@ -4149,9 +4149,9 @@ static PyObject *__pyx_pf_10inprogress_generate(CYTHON_UNUSED PyObject *__pyx_se
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10inprogress_3main(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10inprogress_3main = {"main", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_10inprogress_3main, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10inprogress_3main(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9biphelper_3main(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9biphelper_3main = {"main", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9biphelper_3main, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9biphelper_3main(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_argv = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
@@ -4194,18 +4194,18 @@ static PyObject *__pyx_pw_10inprogress_3main(PyObject *__pyx_self, PyObject *__p
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("main", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 67, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("inprogress.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("biphelper.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10inprogress_2main(__pyx_self, __pyx_v_argv);
+  __pyx_r = __pyx_pf_9biphelper_2main(__pyx_self, __pyx_v_argv);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_argv) {
+static PyObject *__pyx_pf_9biphelper_2main(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_argv) {
   PyObject *__pyx_v_number = NULL;
   PyObject *__pyx_v_lines = NULL;
   PyObject *__pyx_v_opts = NULL;
@@ -4239,7 +4239,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
   __Pyx_RefNannySetupContext("main", 0);
   __Pyx_INCREF(__pyx_v_argv);
 
-  /* "inprogress.py":69
+  /* "biphelper.py":69
  * def main(argv=None):
  * 
  *     number = 5             # <<<<<<<<<<<<<<
@@ -4249,7 +4249,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
   __Pyx_INCREF(__pyx_int_5);
   __pyx_v_number = __pyx_int_5;
 
-  /* "inprogress.py":70
+  /* "biphelper.py":70
  * 
  *     number = 5
  *     lines = 0             # <<<<<<<<<<<<<<
@@ -4259,7 +4259,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_lines = __pyx_int_0;
 
-  /* "inprogress.py":72
+  /* "biphelper.py":72
  *     lines = 0
  * 
  *     if argv is None:             # <<<<<<<<<<<<<<
@@ -4270,7 +4270,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "inprogress.py":73
+    /* "biphelper.py":73
  * 
  *     if argv is None:
  *         argv = sys.argv             # <<<<<<<<<<<<<<
@@ -4285,7 +4285,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
     __Pyx_DECREF_SET(__pyx_v_argv, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "inprogress.py":72
+    /* "biphelper.py":72
  *     lines = 0
  * 
  *     if argv is None:             # <<<<<<<<<<<<<<
@@ -4294,7 +4294,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
   }
 
-  /* "inprogress.py":74
+  /* "biphelper.py":74
  *     if argv is None:
  *         argv = sys.argv
  *     try:             # <<<<<<<<<<<<<<
@@ -4310,7 +4310,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
     __Pyx_XGOTREF(__pyx_t_7);
     /*try:*/ {
 
-      /* "inprogress.py":75
+      /* "biphelper.py":75
  *         argv = sys.argv
  *     try:
  *         try:             # <<<<<<<<<<<<<<
@@ -4326,7 +4326,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __Pyx_XGOTREF(__pyx_t_10);
         /*try:*/ {
 
-          /* "inprogress.py":76
+          /* "biphelper.py":76
  *     try:
  *         try:
  *             opts, args = getopt.getopt(argv[1:], "hn:l:i:vw:", ["help", "number=", "lines=", "wordlist="])             # <<<<<<<<<<<<<<
@@ -4457,7 +4457,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           __pyx_v_args = __pyx_t_15;
           __pyx_t_15 = 0;
 
-          /* "inprogress.py":75
+          /* "biphelper.py":75
  *         argv = sys.argv
  *     try:
  *         try:             # <<<<<<<<<<<<<<
@@ -4477,7 +4477,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "inprogress.py":77
+        /* "biphelper.py":77
  *         try:
  *             opts, args = getopt.getopt(argv[1:], "hn:l:i:vw:", ["help", "number=", "lines=", "wordlist="])
  *         except getopt.error, msg:             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __Pyx_ErrRestore(__pyx_t_4, __pyx_t_15, __pyx_t_11);
         __pyx_t_4 = 0; __pyx_t_15 = 0; __pyx_t_11 = 0;
         if (__pyx_t_14) {
-          __Pyx_AddTraceback("inprogress.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("biphelper.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_11, &__pyx_t_15, &__pyx_t_4) < 0) __PYX_ERR(0, 77, __pyx_L12_except_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_GOTREF(__pyx_t_15);
@@ -4503,7 +4503,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           __Pyx_INCREF(__pyx_t_15);
           __pyx_v_msg = __pyx_t_15;
 
-          /* "inprogress.py":78
+          /* "biphelper.py":78
  *             opts, args = getopt.getopt(argv[1:], "hn:l:i:vw:", ["help", "number=", "lines=", "wordlist="])
  *         except getopt.error, msg:
  *             raise Usage(msg)             # <<<<<<<<<<<<<<
@@ -4534,7 +4534,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         goto __pyx_L12_except_error;
         __pyx_L12_except_error:;
 
-        /* "inprogress.py":75
+        /* "biphelper.py":75
  *         argv = sys.argv
  *     try:
  *         try:             # <<<<<<<<<<<<<<
@@ -4549,7 +4549,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __pyx_L15_try_end:;
       }
 
-      /* "inprogress.py":81
+      /* "biphelper.py":81
  * 
  *         # option processing
  *         for option, value in opts:             # <<<<<<<<<<<<<<
@@ -4646,7 +4646,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __Pyx_XDECREF_SET(__pyx_v_value, __pyx_t_3);
         __pyx_t_3 = 0;
 
-        /* "inprogress.py":82
+        /* "biphelper.py":82
  *         # option processing
  *         for option, value in opts:
  *             if option == "-v":             # <<<<<<<<<<<<<<
@@ -4656,7 +4656,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_option, __pyx_kp_s_v, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 82, __pyx_L4_error)
         if (__pyx_t_2) {
 
-          /* "inprogress.py":83
+          /* "biphelper.py":83
  *         for option, value in opts:
  *             if option == "-v":
  *                 verbose = True             # <<<<<<<<<<<<<<
@@ -4665,7 +4665,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
           __pyx_v_verbose = 1;
 
-          /* "inprogress.py":82
+          /* "biphelper.py":82
  *         # option processing
  *         for option, value in opts:
  *             if option == "-v":             # <<<<<<<<<<<<<<
@@ -4674,7 +4674,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
         }
 
-        /* "inprogress.py":84
+        /* "biphelper.py":84
  *             if option == "-v":
  *                 verbose = True
  *             if option in ("-h", "--help"):             # <<<<<<<<<<<<<<
@@ -4696,7 +4696,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __pyx_t_1 = (__pyx_t_2 != 0);
         if (unlikely(__pyx_t_1)) {
 
-          /* "inprogress.py":85
+          /* "biphelper.py":85
  *                 verbose = True
  *             if option in ("-h", "--help"):
  *                 raise Usage(help_message)             # <<<<<<<<<<<<<<
@@ -4727,7 +4727,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           __PYX_ERR(0, 85, __pyx_L4_error)
 
-          /* "inprogress.py":84
+          /* "biphelper.py":84
  *             if option == "-v":
  *                 verbose = True
  *             if option in ("-h", "--help"):             # <<<<<<<<<<<<<<
@@ -4736,7 +4736,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
         }
 
-        /* "inprogress.py":86
+        /* "biphelper.py":86
  *             if option in ("-h", "--help"):
  *                 raise Usage(help_message)
  *             if option in ("-n", "--number"):             # <<<<<<<<<<<<<<
@@ -4758,7 +4758,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __pyx_t_2 = (__pyx_t_1 != 0);
         if (__pyx_t_2) {
 
-          /* "inprogress.py":87
+          /* "biphelper.py":87
  *                 raise Usage(help_message)
  *             if option in ("-n", "--number"):
  *                 number = int(value)             # <<<<<<<<<<<<<<
@@ -4770,7 +4770,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           __Pyx_DECREF_SET(__pyx_v_number, __pyx_t_15);
           __pyx_t_15 = 0;
 
-          /* "inprogress.py":86
+          /* "biphelper.py":86
  *             if option in ("-h", "--help"):
  *                 raise Usage(help_message)
  *             if option in ("-n", "--number"):             # <<<<<<<<<<<<<<
@@ -4779,7 +4779,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
         }
 
-        /* "inprogress.py":88
+        /* "biphelper.py":88
  *             if option in ("-n", "--number"):
  *                 number = int(value)
  *             if option in ("-w", "--wordlist"):             # <<<<<<<<<<<<<<
@@ -4801,7 +4801,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __pyx_t_1 = (__pyx_t_2 != 0);
         if (__pyx_t_1) {
 
-          /* "inprogress.py":90
+          /* "biphelper.py":90
  *             if option in ("-w", "--wordlist"):
  *                 global CODEWORDS
  *                 print "Importing: %s" % value             # <<<<<<<<<<<<<<
@@ -4813,7 +4813,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           if (__Pyx_PrintOne(0, __pyx_t_15) < 0) __PYX_ERR(0, 90, __pyx_L4_error)
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-          /* "inprogress.py":91
+          /* "biphelper.py":91
  *                 global CODEWORDS
  *                 print "Importing: %s" % value
  *                 CODEWORDS = open(value, 'r').readlines()             # <<<<<<<<<<<<<<
@@ -4852,7 +4852,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           if (PyDict_SetItem(__pyx_d, __pyx_n_s_CODEWORDS, __pyx_t_15) < 0) __PYX_ERR(0, 91, __pyx_L4_error)
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-          /* "inprogress.py":88
+          /* "biphelper.py":88
  *             if option in ("-n", "--number"):
  *                 number = int(value)
  *             if option in ("-w", "--wordlist"):             # <<<<<<<<<<<<<<
@@ -4861,7 +4861,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
         }
 
-        /* "inprogress.py":92
+        /* "biphelper.py":92
  *                 print "Importing: %s" % value
  *                 CODEWORDS = open(value, 'r').readlines()
  *             if option in ("-l", "--lines"):             # <<<<<<<<<<<<<<
@@ -4883,7 +4883,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
         __pyx_t_2 = (__pyx_t_1 != 0);
         if (__pyx_t_2) {
 
-          /* "inprogress.py":93
+          /* "biphelper.py":93
  *                 CODEWORDS = open(value, 'r').readlines()
  *             if option in ("-l", "--lines"):
  *                 lines = int(value)             # <<<<<<<<<<<<<<
@@ -4895,7 +4895,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           __Pyx_DECREF_SET(__pyx_v_lines, __pyx_t_15);
           __pyx_t_15 = 0;
 
-          /* "inprogress.py":94
+          /* "biphelper.py":94
  *             if option in ("-l", "--lines"):
  *                 lines = int(value)
  *                 print value             # <<<<<<<<<<<<<<
@@ -4904,7 +4904,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
           if (__Pyx_PrintOne(0, __pyx_v_value) < 0) __PYX_ERR(0, 94, __pyx_L4_error)
 
-          /* "inprogress.py":95
+          /* "biphelper.py":95
  *                 lines = int(value)
  *                 print value
  *                 if (value):             # <<<<<<<<<<<<<<
@@ -4914,7 +4914,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 95, __pyx_L4_error)
           if (__pyx_t_2) {
 
-            /* "inprogress.py":96
+            /* "biphelper.py":96
  *                 print value
  *                 if (value):
  *                     lines = value             # <<<<<<<<<<<<<<
@@ -4924,7 +4924,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
             __Pyx_INCREF(__pyx_v_value);
             __Pyx_DECREF_SET(__pyx_v_lines, __pyx_v_value);
 
-            /* "inprogress.py":95
+            /* "biphelper.py":95
  *                 lines = int(value)
  *                 print value
  *                 if (value):             # <<<<<<<<<<<<<<
@@ -4934,7 +4934,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
             goto __pyx_L37;
           }
 
-          /* "inprogress.py":98
+          /* "biphelper.py":98
  *                     lines = value
  *                 else:
  *                     lines = 'TRUE'             # <<<<<<<<<<<<<<
@@ -4947,7 +4947,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
           }
           __pyx_L37:;
 
-          /* "inprogress.py":92
+          /* "biphelper.py":92
  *                 print "Importing: %s" % value
  *                 CODEWORDS = open(value, 'r').readlines()
  *             if option in ("-l", "--lines"):             # <<<<<<<<<<<<<<
@@ -4956,7 +4956,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
  */
         }
 
-        /* "inprogress.py":81
+        /* "biphelper.py":81
  * 
  *         # option processing
  *         for option, value in opts:             # <<<<<<<<<<<<<<
@@ -4966,7 +4966,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "inprogress.py":100
+      /* "biphelper.py":100
  *                     lines = 'TRUE'
  * 
  *         generate(lines, number)             # <<<<<<<<<<<<<<
@@ -5022,7 +5022,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "inprogress.py":74
+      /* "biphelper.py":74
  *     if argv is None:
  *         argv = sys.argv
  *     try:             # <<<<<<<<<<<<<<
@@ -5042,7 +5042,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "inprogress.py":102
+    /* "biphelper.py":102
  *         generate(lines, number)
  * 
  *     except Usage, err:             # <<<<<<<<<<<<<<
@@ -5057,7 +5057,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
     __Pyx_ErrRestore(__pyx_t_4, __pyx_t_15, __pyx_t_11);
     __pyx_t_4 = 0; __pyx_t_15 = 0; __pyx_t_11 = 0;
     if (__pyx_t_14) {
-      __Pyx_AddTraceback("inprogress.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("biphelper.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_11, &__pyx_t_15, &__pyx_t_4) < 0) __PYX_ERR(0, 102, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_GOTREF(__pyx_t_15);
@@ -5065,7 +5065,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
       __Pyx_INCREF(__pyx_t_15);
       __pyx_v_err = __pyx_t_15;
 
-      /* "inprogress.py":103
+      /* "biphelper.py":103
  * 
  *     except Usage, err:
  *         print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)             # <<<<<<<<<<<<<<
@@ -5122,7 +5122,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-      /* "inprogress.py":104
+      /* "biphelper.py":104
  *     except Usage, err:
  *         print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
  *         print >> sys.stderr, "\t for help use --help"             # <<<<<<<<<<<<<<
@@ -5137,7 +5137,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
       if (__Pyx_PrintOne(__pyx_t_19, __pyx_kp_s_for_help_use_help) < 0) __PYX_ERR(0, 104, __pyx_L6_except_error)
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
 
-      /* "inprogress.py":105
+      /* "biphelper.py":105
  *         print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
  *         print >> sys.stderr, "\t for help use --help"
  *         return 2             # <<<<<<<<<<<<<<
@@ -5155,7 +5155,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
     goto __pyx_L6_except_error;
     __pyx_L6_except_error:;
 
-    /* "inprogress.py":74
+    /* "biphelper.py":74
  *     if argv is None:
  *         argv = sys.argv
  *     try:             # <<<<<<<<<<<<<<
@@ -5176,7 +5176,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
     __pyx_L9_try_end:;
   }
 
-  /* "inprogress.py":67
+  /* "biphelper.py":67
  *            number -= 1
  * 
  * def main(argv=None):             # <<<<<<<<<<<<<<
@@ -5195,7 +5195,7 @@ static PyObject *__pyx_pf_10inprogress_2main(CYTHON_UNUSED PyObject *__pyx_self,
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_15);
   __Pyx_XDECREF(__pyx_t_19);
-  __Pyx_AddTraceback("inprogress.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("biphelper.main", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_number);
@@ -5219,17 +5219,17 @@ static PyMethodDef __pyx_methods[] = {
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /*proto*/
-static int __pyx_pymod_exec_inprogress(PyObject* module); /*proto*/
+static int __pyx_pymod_exec_biphelper(PyObject* module); /*proto*/
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
-  {Py_mod_exec, (void*)__pyx_pymod_exec_inprogress},
+  {Py_mod_exec, (void*)__pyx_pymod_exec_biphelper},
   {0, NULL}
 };
 #endif
 
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
-    "inprogress",
+    "biphelper",
     __pyx_k_code_phrase_geneator_py_Bip39_b, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
@@ -5272,6 +5272,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 0, 1, 0},
   {&__pyx_n_s_args, __pyx_k_args, sizeof(__pyx_k_args), 0, 0, 1, 1},
   {&__pyx_n_s_argv, __pyx_k_argv, sizeof(__pyx_k_argv), 0, 0, 1, 1},
+  {&__pyx_n_s_biphelper, __pyx_k_biphelper, sizeof(__pyx_k_biphelper), 0, 0, 1, 1},
+  {&__pyx_kp_s_biphelper_py, __pyx_k_biphelper_py, sizeof(__pyx_k_biphelper_py), 0, 0, 1, 0},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
   {&__pyx_n_s_doc, __pyx_k_doc, sizeof(__pyx_k_doc), 0, 0, 1, 1},
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
@@ -5289,8 +5291,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_hn_l_i_vw, __pyx_k_hn_l_i_vw, sizeof(__pyx_k_hn_l_i_vw), 0, 0, 1, 0},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_init, __pyx_k_init, sizeof(__pyx_k_init), 0, 0, 1, 1},
-  {&__pyx_n_s_inprogress, __pyx_k_inprogress, sizeof(__pyx_k_inprogress), 0, 0, 1, 1},
-  {&__pyx_kp_s_inprogress_py, __pyx_k_inprogress_py, sizeof(__pyx_k_inprogress_py), 0, 0, 1, 0},
   {&__pyx_kp_s_l, __pyx_k_l, sizeof(__pyx_k_l), 0, 0, 1, 0},
   {&__pyx_n_s_lines, __pyx_k_lines, sizeof(__pyx_k_lines), 0, 0, 1, 1},
   {&__pyx_kp_s_lines_2, __pyx_k_lines_2, sizeof(__pyx_k_lines_2), 0, 0, 1, 0},
@@ -5357,7 +5357,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "inprogress.py":76
+  /* "biphelper.py":76
  *     try:
  *         try:
  *             opts, args = getopt.getopt(argv[1:], "hn:l:i:vw:", ["help", "number=", "lines=", "wordlist="])             # <<<<<<<<<<<<<<
@@ -5368,7 +5368,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice_);
   __Pyx_GIVEREF(__pyx_slice_);
 
-  /* "inprogress.py":21
+  /* "biphelper.py":21
  * '''
  * 
  * CODEWORDS = open('wordlist.txt', 'r').readlines()             # <<<<<<<<<<<<<<
@@ -5379,7 +5379,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "inprogress.py":26
+  /* "biphelper.py":26
  * 
  * class Usage(Exception):
  *     def __init__(self, msg):             # <<<<<<<<<<<<<<
@@ -5389,9 +5389,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__5 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_inprogress_py, __pyx_n_s_init, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_biphelper_py, __pyx_n_s_init, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 26, __pyx_L1_error)
 
-  /* "inprogress.py":29
+  /* "biphelper.py":29
  *         self.msg = msg
  * 
  * def generate(lines=True, number=5):             # <<<<<<<<<<<<<<
@@ -5401,12 +5401,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__7 = PyTuple_Pack(14, __pyx_n_s_lines, __pyx_n_s_number, __pyx_n_s_word1, __pyx_n_s_word2, __pyx_n_s_word3, __pyx_n_s_word4, __pyx_n_s_word5, __pyx_n_s_word6, __pyx_n_s_word7, __pyx_n_s_word8, __pyx_n_s_word9, __pyx_n_s_word10, __pyx_n_s_word11, __pyx_n_s_word12); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
-  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(2, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_inprogress_py, __pyx_n_s_generate, 29, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(2, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_biphelper_py, __pyx_n_s_generate, 29, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 29, __pyx_L1_error)
   __pyx_tuple__9 = PyTuple_Pack(2, ((PyObject *)Py_True), ((PyObject *)__pyx_int_5)); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "inprogress.py":67
+  /* "biphelper.py":67
  *            number -= 1
  * 
  * def main(argv=None):             # <<<<<<<<<<<<<<
@@ -5416,7 +5416,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__10 = PyTuple_Pack(10, __pyx_n_s_argv, __pyx_n_s_number, __pyx_n_s_lines, __pyx_n_s_opts, __pyx_n_s_args, __pyx_n_s_msg, __pyx_n_s_option, __pyx_n_s_value, __pyx_n_s_verbose, __pyx_n_s_err); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
-  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_inprogress_py, __pyx_n_s_main_2, 67, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) __PYX_ERR(0, 67, __pyx_L1_error)
+  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_biphelper_py, __pyx_n_s_main_2, 67, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) __PYX_ERR(0, 67, __pyx_L1_error)
   __pyx_tuple__12 = PyTuple_Pack(1, ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
@@ -5519,11 +5519,11 @@ static int __Pyx_modinit_function_import_code(void) {
 
 
 #if PY_MAJOR_VERSION < 3
-__Pyx_PyMODINIT_FUNC initinprogress(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC initinprogress(void)
+__Pyx_PyMODINIT_FUNC initbiphelper(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC initbiphelper(void)
 #else
-__Pyx_PyMODINIT_FUNC PyInit_inprogress(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC PyInit_inprogress(void)
+__Pyx_PyMODINIT_FUNC PyInit_biphelper(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC PyInit_biphelper(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
   return PyModuleDef_Init(&__pyx_moduledef);
@@ -5590,7 +5590,7 @@ bad:
 }
 
 
-static CYTHON_SMALL_CODE int __pyx_pymod_exec_inprogress(PyObject *__pyx_pyinit_module)
+static CYTHON_SMALL_CODE int __pyx_pymod_exec_biphelper(PyObject *__pyx_pyinit_module)
 #endif
 #endif
 {
@@ -5603,7 +5603,7 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_inprogress(PyObject *__pyx_pyinit_
   #if CYTHON_PEP489_MULTI_PHASE_INIT
   if (__pyx_m) {
     if (__pyx_m == __pyx_pyinit_module) return 0;
-    PyErr_SetString(PyExc_RuntimeError, "Module 'inprogress' has already been imported. Re-initialisation is not supported.");
+    PyErr_SetString(PyExc_RuntimeError, "Module 'biphelper' has already been imported. Re-initialisation is not supported.");
     return -1;
   }
   #elif PY_MAJOR_VERSION >= 3
@@ -5618,7 +5618,7 @@ if (!__Pyx_RefNanny) {
       Py_FatalError("failed to import 'refnanny' module");
 }
 #endif
-  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_inprogress(void)", 0);
+  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_biphelper(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #ifdef __Pxy_PyFrame_Initialize_Offsets
   __Pxy_PyFrame_Initialize_Offsets();
@@ -5657,7 +5657,7 @@ if (!__Pyx_RefNanny) {
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("inprogress", __pyx_methods, __pyx_k_code_phrase_geneator_py_Bip39_b, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("biphelper", __pyx_methods, __pyx_k_code_phrase_geneator_py_Bip39_b, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -5676,14 +5676,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_inprogress) {
+  if (__pyx_module_is_main_biphelper) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "inprogress")) {
-      if (unlikely(PyDict_SetItemString(modules, "inprogress", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "biphelper")) {
+      if (unlikely(PyDict_SetItemString(modules, "biphelper", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -5704,7 +5704,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "inprogress.py":11
+  /* "biphelper.py":11
  * """
  * 
  * import sys             # <<<<<<<<<<<<<<
@@ -5716,7 +5716,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_1) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":12
+  /* "biphelper.py":12
  * 
  * import sys
  * import getopt             # <<<<<<<<<<<<<<
@@ -5728,7 +5728,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_getopt, __pyx_t_1) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":13
+  /* "biphelper.py":13
  * import sys
  * import getopt
  * import random             # <<<<<<<<<<<<<<
@@ -5740,7 +5740,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_random, __pyx_t_1) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":15
+  /* "biphelper.py":15
  * import random
  * 
  * help_message = '''             # <<<<<<<<<<<<<<
@@ -5749,7 +5749,7 @@ if (!__Pyx_RefNanny) {
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_help_message, __pyx_kp_s_BIP39_Phrase_Generator_v1_02_n) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
 
-  /* "inprogress.py":21
+  /* "biphelper.py":21
  * '''
  * 
  * CODEWORDS = open('wordlist.txt', 'r').readlines()             # <<<<<<<<<<<<<<
@@ -5767,7 +5767,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_CODEWORDS, __pyx_t_1) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":25
+  /* "biphelper.py":25
  * 
  * 
  * class Usage(Exception):             # <<<<<<<<<<<<<<
@@ -5781,22 +5781,22 @@ if (!__Pyx_RefNanny) {
   PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Usage, __pyx_n_s_Usage, (PyObject *) NULL, __pyx_n_s_inprogress, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Usage, __pyx_n_s_Usage, (PyObject *) NULL, __pyx_n_s_biphelper, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "inprogress.py":26
+  /* "biphelper.py":26
  * 
  * class Usage(Exception):
  *     def __init__(self, msg):             # <<<<<<<<<<<<<<
  *         self.msg = msg
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10inprogress_5Usage_1__init__, 0, __pyx_n_s_Usage___init, NULL, __pyx_n_s_inprogress, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9biphelper_5Usage_1__init__, 0, __pyx_n_s_Usage___init, NULL, __pyx_n_s_biphelper, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "inprogress.py":25
+  /* "biphelper.py":25
  * 
  * 
  * class Usage(Exception):             # <<<<<<<<<<<<<<
@@ -5811,33 +5811,33 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":29
+  /* "biphelper.py":29
  *         self.msg = msg
  * 
  * def generate(lines=True, number=5):             # <<<<<<<<<<<<<<
  *     while number > 0:
  *         if lines == '2':
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10inprogress_1generate, 0, __pyx_n_s_generate, NULL, __pyx_n_s_inprogress, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9biphelper_1generate, 0, __pyx_n_s_generate, NULL, __pyx_n_s_biphelper, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_tuple__9);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_generate, __pyx_t_1) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":67
+  /* "biphelper.py":67
  *            number -= 1
  * 
  * def main(argv=None):             # <<<<<<<<<<<<<<
  * 
  *     number = 5
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10inprogress_3main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_inprogress, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9biphelper_3main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_biphelper, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_tuple__12);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_main_2, __pyx_t_1) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "inprogress.py":108
+  /* "biphelper.py":108
  * 
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -5849,7 +5849,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "inprogress.py":109
+    /* "biphelper.py":109
  * 
  * if __name__ == "__main__":
  *     sys.exit(main())             # <<<<<<<<<<<<<<
@@ -5870,7 +5870,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "inprogress.py":108
+    /* "biphelper.py":108
  * 
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -5878,7 +5878,7 @@ if (!__Pyx_RefNanny) {
  */
   }
 
-  /* "inprogress.py":1
+  /* "biphelper.py":1
  * #!/usr/bin/env python             # <<<<<<<<<<<<<<
  * # encoding: utf-8
  * """
@@ -5898,11 +5898,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init inprogress", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init biphelper", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init inprogress");
+    PyErr_SetString(PyExc_ImportError, "init biphelper");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -8451,11 +8451,11 @@ static int __Pyx_main(int argc, wchar_t **argv) {
         PySys_SetArgv(argc, argv);
     {
       PyObject* m = NULL;
-      __pyx_module_is_main_inprogress = 1;
+      __pyx_module_is_main_biphelper = 1;
       #if PY_MAJOR_VERSION < 3
-          initinprogress();
+          initbiphelper();
       #elif CYTHON_PEP489_MULTI_PHASE_INIT
-          m = PyInit_inprogress();
+          m = PyInit_biphelper();
           if (!PyModule_Check(m)) {
               PyModuleDef *mdef = (PyModuleDef *) m;
               PyObject *modname = PyUnicode_FromString("__main__");
@@ -8467,7 +8467,7 @@ static int __Pyx_main(int argc, wchar_t **argv) {
               }
           }
       #else
-          m = PyInit_inprogress();
+          m = PyInit_biphelper();
       #endif
       if (PyErr_Occurred()) {
           PyErr_Print();
