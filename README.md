@@ -6,7 +6,7 @@ The was originally written in pyton and converted to C for speed and to run mult
 
 # Usage
 
-Just running the script from the commandline will randomly generate 3, 6, 12 BIP39 code phrases::
+Just running the script from the commandline will randomly generate 2, 3, 6, and 12 BIP39 code phrases::
 
 	The C Dependencies are listed below 
       
